@@ -12,6 +12,8 @@ body{
 
 .wrapper {
    overflow: hidden;
+   display: block;
+   margin: 0 auto;
    max-width: 1440px;
 }
 
@@ -25,7 +27,6 @@ body{
      min-height: max-content;
    }
 }
-
 
 .header__conteiner {
    position: relative;
@@ -60,7 +61,6 @@ body{
    }
 }
 
-
 .span-stone:hover{
    text-shadow: 0 0 10px #C7AA8B;
    transition: 0.7s;
@@ -88,7 +88,8 @@ body{
    font-size: 15px;
    line-height: 20px;
    color: #EDEDED;
-   border-left:1px solid #4D4D4D;
+   transition: 1s;
+   
 }
 
 @media screen and (max-width:596px) {
@@ -111,13 +112,14 @@ body{
    }
 }
 
-.item:last-child{
-   border-right:1px solid #4D4D4D;
-}
 .item:hover{
    background-color: black;
    color: #C7AA8B;
    box-shadow: 0 0 5px #C7AA8B;
+   transition: 0.5s;
+}
+.item:active{
+   box-shadow: 0 0 15px #C7AA8B;
    transition: 0.5s;
 }
 
@@ -150,6 +152,9 @@ body{
    color: rgba(245, 245, 220, 0);
 }
 
+.item-FB:active{
+   box-shadow: 0 0 15px #507ad4;
+}
 .item-twit {
    background: 
    url('../img/header/twit-blue.svg') no-repeat;
@@ -157,11 +162,17 @@ body{
    color: rgba(245, 245, 220, 0);
 }
 
+
+
 .item-twit:hover {
    background: black url('../img/header/twit.svg') no-repeat;
    box-shadow: 0 0 5px #00ACEE;
    background-position: 50% 50%;
    color: rgba(245, 245, 220, 0);
+}
+
+.item-twit:active{
+   box-shadow: 0 0 15px #00ACEE;
 }
 
 .main {
@@ -234,6 +245,7 @@ body{
    color: aliceblue;
    border: 2px solid #FFFFFF;
    text-transform: uppercase;
+   transition: 1s;
 }
 
 .button:hover{
@@ -241,6 +253,12 @@ body{
    box-shadow: 0 0 10px white;
    transition: 1s;
 }
+
+   .button:active {
+      box-shadow: 0 0 30px rgb(255, 255, 255);
+      transition: 1s;
+   }
+
 /* ========================================== */
 
 .cards{
@@ -541,6 +559,7 @@ body{
      
    }
 }
+
 
 .team__conteiner div:last-of-type{
    margin-right: 0;
