@@ -619,6 +619,7 @@ body{
    background-size: 17px 17px;
    width: 17px;
    height: 17px;
+   transition: 1s;
 }
 
 .team-item-FB:hover{
@@ -633,6 +634,7 @@ body{
    width: 18px;
    height: 14.65px;
    margin-left: 10px;
+   transition: 1s;
 }
 
 .team-item-twit:hover{
@@ -647,6 +649,7 @@ transition: 0.5s;
    width: 17px;
    height: 17px;
    margin-left: 10px;
+   transition: 1s;
 }
 
 .team-item-in:hover{
@@ -661,6 +664,7 @@ transition: 0.5s;
    width: 17px;
    height: 17px;
    margin-left: 10px;
+   transition: 1s;
 }
 
 .team-item-be:hover{
@@ -678,6 +682,7 @@ transition: 0.5s;
    width: 17px;
    height: 17px;
    margin-left: 10px;
+   transition: 1s;
 }
 
 .team-item-bascket:hover{
@@ -692,6 +697,7 @@ transition: 0.5s;
    width: 17px;
    height: 17px;
    margin-left: 10px;
+   transition: 1s;
 }
 
 .team-item-inst:hover{
